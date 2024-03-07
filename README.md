@@ -31,6 +31,20 @@ Kaggle
    - Exercicios y ejemplos de `JOINs` y `UNIONs`. Además de calculo de tiempo de respuesta de un sistema.
 
 2. **Analytic Fuctions**
+   - Introducción a las funciones analíticas.
+     - `OVER`, `PARTITION BY`, `ORDER BY`.
+   - `Window Frame`.
+   - Tres tipos de funciones analíticas:
+     - `Analytic Aggregate Functions`: `AVG()`, `SUM()`, `COUNT()`, `MIN()`, `MAX()`.
+     - `Analytic Navigation Functions`: `LEAD()`, `LAG()`, `FIRST_VALUE()`, `LAST_VALUE()`.
+     - `Analytic Numbering Functions`: `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `NTILE()`.
+   - Ejemplos
+     - Contar número acumulado de viajes por día.
+     - Calcular el inicio y fin de estacionamiento de bicis.
+   - Ejercicios
+     - Predecir la demanda de taxis.(`AVG()`)
+     - Separar y ordenar viajes por área de la comunidad.(`RANK()`)
+     - Tiempo entre viajes.(`LAG(), TIMESTAMP_DIFF()`)
 
 
 3. **Nested and Repeat Data**
